@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <RelativeLayout
+        android:id="@+id/id_layout_pop"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="#CC4e5a6b" >
+
+        <ImageView
+            android:id="@+id/pop_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/pop_bg"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:id="@+id/id_pop_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pop_img"
+            android:paddingLeft="20dp"
+            android:text="这里显示的是地名" />
+
+        <TextView
+            android:id="@+id/id_pop_text_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_pop_text_name"
+            android:paddingLeft="20dp"
+            android:text="这里显示的是位置" />
+    </RelativeLayout>
+
+</RelativeLayout>
